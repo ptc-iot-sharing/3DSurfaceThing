@@ -5,7 +5,7 @@ This repo contains instructions on how to plot a 3D surface and display it in a 
 * an example dataset (plotly3Datatable) and a sample mashup (plotlyTest).
 * the build artifacts for [ThingworxPlotlyChartingSDK](https://github.com/jmccuen/ThingworxPlotlyChartingSDK)  and  [ThingworxPlotlyExamplePlots](https://github.com/jmccuen/ThingworxPlotlyExamplePlots) 
 
-This guide leverages the work of [jmccuen](https://github.com/jmccuen) who implemented the [plotly](https://plot.ly/javascript/) javascript library using the [Thingworx Java SDK](https://marketplace.ptc.com/apps/193544/extension-sdk-v83#!overview). In the PlotlyExamplePlots there are implementations additional graphs:
+This guide leverages the work of [jmccuen](https://github.com/jmccuen) who implemented the [plotly](https://plot.ly/javascript/) javascript library using the [Thingworx Java SDK](https://marketplace.ptc.com/apps/193544/extension-sdk-v83#!overview). The PlotlyExamplePlots extension also contains implementations for other graphs:
 
 * Timeseries Plot
 * Label Plot
@@ -16,8 +16,8 @@ This guide leverages the work of [jmccuen](https://github.com/jmccuen) who imple
 
 ### Configuration
 
-* Import the ThingworxPlotlyChartingSDK first, into Thingworx, then import ThingworxPlotlyExamplePlots. 
-* Import the example datatable entity, plotly3Datatable, and then the mashup plotlyTest.
+* Import the [PlotlyChartLibrary-dev-1.0.192.zip](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/PlotlyChartLibrary-dev-1.0.192.zip) first, into Thingworx, then import [PlotlyPlots.zip](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/PlotlyPlots.zip). 
+* Import the example [datashape](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/DataShapes_plotly3Datashape.xml), [datatable entity](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/Things_plotly3Datatable.xml), [datatable data](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/plotly3Datatable-Data.zip), and then the mashup [plotlyTest](https://github.com/ptc-iot-sharing/3DSurfaceThing/blob/master/Mashups_plotlyTest.xml).
 
 You can now view the 3D surface plot inside the example mashup or create your own plot, using the Surface Plot widget, that should now appear in the widget picker.
 
