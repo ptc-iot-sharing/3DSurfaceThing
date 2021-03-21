@@ -1,5 +1,13 @@
 # 3DSurfaceThing
 
+**Disclaimer**
+
+This repository is provided "AS-IS" with **no warranty or support** given. This is not an official or supported product/use case. 
+
+
+
+**Description**
+
 This repo contains instructions on how to plot a 3D surface and display it in a mashup. It contains:
 
 * an example dataset (plotly3Datatable) and a sample mashup (plotlyTest).
